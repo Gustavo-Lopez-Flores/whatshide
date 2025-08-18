@@ -1,0 +1,14 @@
+{
+  "name": "Hide web whatsapp",
+  "version": "1.0.1",
+  "description": "Faz o whatsapp web aparecer somente com o mouse sobre os elementos",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "author": "Fibbs",
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}

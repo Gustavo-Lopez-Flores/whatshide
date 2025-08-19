@@ -19,3 +19,15 @@
 #main:hover [data-testid="conversation-panel-messages"] {
   display: block !important;
 }
+
+#main header,
+#main footer {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity .2s ease-in-out;
+}
+#main:hover header,
+#main:hover footer {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}

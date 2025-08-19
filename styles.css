@@ -13,3 +13,9 @@
 #main [data-testid="conversation-panel-messages"] {
   display: none !important; 
 }
+
+#main:hover .copyable-area,
+#main:hover [data-testid="conversation-panel-body"],
+#main:hover [data-testid="conversation-panel-messages"] {
+  display: block !important;
+}

@@ -1,0 +1,9 @@
+#pane-side {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity .2s ease-in-out;
+}
+#side:hover #pane-side {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
